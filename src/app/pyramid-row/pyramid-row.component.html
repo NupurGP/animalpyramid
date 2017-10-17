@@ -1,0 +1,8 @@
+<div class="flex-line {{ 'pyramid-level-' + level }}">
+	<div class = "flex-item" *ngFor = "let animal of animals">
+  <img class="animal-avatar"  src="{{ animal.imagePath }}"/>
+  <div style="text-align:right"> {{ animal.name}}</div>
+  </div>
+</div>
+
+
